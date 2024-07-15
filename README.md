@@ -1,7 +1,8 @@
-# OSU AI Bootcamp - Challenge 5 - Athletic Sales Analysis
+# OSU AI Bootcamp - Module 21 Challenge - SMS Text Classification
 ## Submitted by Brandon Allen
 ## Overview
-The task was to complete a jupyter notebook, exploring a data set containing sales data.  The goal was to follow the requests of the assignment, which involved merging two years worth of data, checking for opportunities to clean (null values) and then assessing different aspects of revenue, mostly around region and later by product as well.  Overall this assignment was a good reminder of the Pandas groupby and pivot_table methods.
+In this challenge, I'll be refactoring code from an SMS text classification solution into a function that constructs a linear Support Vector Classification (SVC) model. Once the model is created and trained, I will create a Gradio app to host the application, enabling users to test text messages. The application will provide feedback to users, indicating whether the text is classified as spam or not, based on the model's performance.
 ## Files
-- athletic_sales_analysis_starter_code.ipynb is the main file where the assignment is completed.
-- athletic_sales_2020.csv and athletic_sales_2021.csv are the data sources for the assignment.
+- gradio_sms_text_classification.ipynb is the main homework file where my code was added.
+- Resources/SMSSpamCollection.csv is the data used to train the model.
+- sms_text_classification_solution.ipynb was a documented provided for reference.
